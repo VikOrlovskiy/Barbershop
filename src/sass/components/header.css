@@ -1,0 +1,52 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: grey;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.navbar_logo {
+  background-color: #fff;
+  margin-right: 70px;
+}
+
+.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_item {
+  margin-right: 40px;
+  display: block;
+}
+
+.nav_item:last-child {
+  margin-right: 0;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact_tel {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */

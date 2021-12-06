@@ -1,0 +1,62 @@
+// primary Btn-link
+.link {
+  color: $lite-text-color;
+  background-color: transparent;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  border-radius: 25px;
+  padding: 12px 20px;
+  min-width: 160px;
+  max-width: 190px;
+  border: 2px solid $acent-text-color;
+
+  transition: color 250ms $primary-animation, border-color 250ms $primary-animation;
+
+  &:hover,
+  &:focus {
+    color: $acent-text-color;
+    border-color: $lite-text-color;
+  }
+}
+.link-dark {
+  color: $secondary-text-color;
+  &:hover,
+  &:focus {
+    color: $acent-text-color;
+    border-color: $acent-text-color;
+  }
+}
+// ==================================================================
+// mobile Btn
+.button__mobile {
+  display: none;
+  @media (max-width: 767px) {
+    display: inline-flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    z-index: 10;
+  }
+
+  & .button__mobile-menu {
+    fill: $lite-text-color;
+    display: block;
+  }
+  &.is-open .button__mobile-menu {
+    display: none;
+  }
+  & .button__mobile-cross {
+    display: none;
+  }
+  &.is-open .button__mobile-cross {
+    fill: $secondary-text-color;
+    display: block;
+  }
+}

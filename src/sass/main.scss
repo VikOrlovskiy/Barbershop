@@ -1,7 +1,40 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+// general
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './components/general-styles';
+@import './components/button';
+// ==================================================================
+// header
+@import './components/header';
+// @import './components/logo';
+// mobile menu
+// @import './components/mobile-menu';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './components/aside';
+// section hero
+@import './components/slider';
+// ==================================================================
+// section about
+@import './components/section-about';
+// ==================================================================
+// section prise
+@import './components/section-prise';
+// @import './components/prise';
+// ==================================================================
+// section why we
+// @import './components/why-we';
+// ==================================================================
+// section our team
+// @import './components/team';
+// @import './components/specialist';
+// @import './components/social';
+// ==================================================================
+// section card set
+// @import './components/card-set';
+// ==================================================================
+// footer
+// @import './components/subscribe';
+// @import './components/address';
+// @import './components/footer';
+// ==================================================================
