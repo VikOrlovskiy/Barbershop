@@ -1,0 +1,30 @@
+.social {
+  margin-top: 30px;
+  @include centerFlex();
+  &__item {
+    background-color: $lite-text-color;
+    border-radius: 50%;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__link {
+    color: $secondary-text-color;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    @include centerFlex();
+
+    transition: color 250ms $primary-animation;
+
+    &:focus,
+    &:hover {
+      color: $acent-text-color;
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}

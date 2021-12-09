@@ -1,0 +1,35 @@
+.price {
+  display: flex;
+  justify-content: space-between;
+  &_list {
+    flex-grow: 1;
+    padding: 30px 40px;
+    margin: 44px 0 50px 0;
+    background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+  }
+  &_list.list-right {
+    background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+  }
+  &_item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  &_item:first-child {
+    padding-top: 0;
+  }
+  &_name {
+    display: block;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: $darkest-text-color;
+  }
+  &_cost {
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: $darkest-text-color;
+  }
+}

@@ -1,0 +1,22 @@
+.why {
+  width: calc(100% / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.why_box {
+  margin: 10px;
+  background-color: firebrick;
+  width: 170px;
+  height: 133px;
+}
+
+.why_content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=why-we.css.map */

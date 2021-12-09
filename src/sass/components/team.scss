@@ -1,0 +1,11 @@
+.team {
+  margin-top: 44px;
+  display: flex;
+  &_item {
+    margin-right: 30px;
+    width: calc((100% - (30px * 2)) / 3);
+  }
+  &_item:last-child {
+    margin-right: 0;
+  }
+}

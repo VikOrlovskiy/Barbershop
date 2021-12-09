@@ -1,0 +1,21 @@
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social_item {
+  background-color: black;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.social_item:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=social.css.map */

@@ -1,0 +1,20 @@
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery_thumb {
+  height: 360px;
+  width: calc((100% - (30px * 3)) / 4);
+  margin-right: 30px;
+}
+
+.gallery_img {
+  height: 100%;
+}
+
+.gallery_thumb:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=card-set.css.map */

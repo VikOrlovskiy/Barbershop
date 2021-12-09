@@ -1,0 +1,24 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  opacity: 0.6;
+  z-index: 10;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 55px;
+}
+
+.nav-bar_svg {
+  margin-right: 70px;
+  fill: #303030;
+}
+/*# sourceMappingURL=header.css.map */

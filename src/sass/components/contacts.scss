@@ -1,0 +1,13 @@
+.contacts {
+  margin-left: auto;
+  &_phone {
+    text-decoration: none;
+    color: $lite-text-color;
+    margin-right: 40px;
+  }
+  &_phone:hover,
+  &_phone:focus {
+    color: $acent-text-color;
+    transition: color 250ms $primary-animation;
+  }
+}

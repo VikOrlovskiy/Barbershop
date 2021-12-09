@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  &_thumb {
+    height: 360px;
+    width: calc((100% - (30px * 3)) / 4);
+    margin-right: 30px;
+  }
+  &_img {
+    height: 100%;
+  }
+  &_thumb:last-child {
+    margin-right: 0;
+  }
+}

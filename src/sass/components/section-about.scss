@@ -1,0 +1,17 @@
+.about {
+  &_pictures {
+    display: flex;
+    width: calc((100%-30px) / 2);
+  }
+  &_images {
+    margin-right: 30px;
+    width: calc((100% - 30px) / 2);
+  }
+  &_images:last-child {
+    margin-right: 0;
+  }
+  &_content {
+    margin-left: 64px;
+    width: calc(100% / 2);
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,KAAK,EAAE,cAAc;EACrB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAchB;;AAbE,AAAD,QAAK,CAAC;EACJ,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,SAAS;EAC3B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACd;;AAKA,AAAD,YAAS,CAAC;EACR,SAAS,EAAE,CAAC;CACb",
+    "sources": [
+        "why-we.scss"
+    ],
+    "names": [],
+    "file": "why-we.css"
+}

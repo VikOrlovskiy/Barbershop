@@ -1,0 +1,16 @@
+.team {
+  margin-top: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team_item {
+  margin-right: 30px;
+  width: calc((100% - (30px * 2)) / 3);
+}
+
+.team_item:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=team.css.map */

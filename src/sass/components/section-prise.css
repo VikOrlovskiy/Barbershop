@@ -1,0 +1,32 @@
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price_list {
+  padding: 30px 40px;
+}
+
+.price_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+.price_item:first-child {
+  padding-top: 0;
+}
+
+.price_name {
+  display: block;
+  margin-right: 50px;
+}
+/*# sourceMappingURL=section-prise.css.map */

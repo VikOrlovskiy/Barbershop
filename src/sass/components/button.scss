@@ -17,19 +17,24 @@
   max-width: 190px;
   border: 2px solid $acent-text-color;
 
-  transition: color 250ms $primary-animation, border-color 250ms $primary-animation;
-
+  transition: color 250ms $primary-animation, border-color 250ms $primary-animation,
+    background-color 250ms $primary-animation;
   &:hover,
   &:focus {
-    color: $acent-text-color;
-    border-color: $lite-text-color;
+    color: $lite-text-color;
+    background-color: $acent-text-color;
+    border-color: $acent-text-color;
   }
+}
+.link-centred {
+  text-align: center;
 }
 .link-dark {
   color: $secondary-text-color;
   &:hover,
   &:focus {
-    color: $acent-text-color;
+    color: $lite-text-color;
+
     border-color: $acent-text-color;
   }
 }

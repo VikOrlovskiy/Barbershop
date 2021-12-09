@@ -6,35 +6,36 @@
 @import './components/button';
 // ==================================================================
 // header
-// @import './components/header';
-// @import './components/logo';
+@import './components/header';
+@import './components/navigation';
+@import './components/contacts';
 // mobile menu
 // @import './components/mobile-menu';
-
-// @import './components/aside';
+// ==================================================================
 // section hero
-// @import './components/slider';
+@import './components/hero';
+@import './components/aside';
+@import './components/slider';
 // ==================================================================
 // section about
-// @import './components/section-about';
+@import './components/section-about';
 // ==================================================================
 // section prise
-// @import './components/section-prise';
-// @import './components/prise';
+@import './components/section-prise';
 // ==================================================================
 // section why we
-// @import './components/why-we';
+@import './components/why-we';
 // ==================================================================
 // section our team
-// @import './components/team';
-// @import './components/specialist';
-// @import './components/social';
+@import './components/team';
+@import './components/specialist';
+@import './components/social';
 // ==================================================================
 // section card set
-// @import './components/card-set';
+@import './components/card-set';
 // ==================================================================
-// footer
-// @import './components/subscribe';
-// @import './components/address';
-// @import './components/footer';
+// section subscribe
+@import './components/subscribe';
+@import './components/address';
+@import './components/footer-bar';
 // ==================================================================

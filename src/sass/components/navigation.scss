@@ -1,0 +1,22 @@
+.navigation {
+  &_list {
+    display: flex;
+  }
+  &_item {
+    display: block;
+    margin-right: 40px;
+  }
+  &_item:last-child {
+    margin-right: 0;
+  }
+
+  &_link {
+    text-decoration: none;
+    color: $lite-text-color;
+  }
+  &_link:hover,
+  &_link:focus {
+    color: $acent-text-color;
+    transition: color 250ms $primary-animation;
+  }
+}

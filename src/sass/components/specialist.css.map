@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,iBAAO,CAAC;EACN,MAAM,EAAE,KAAK;CACd;;AACA,AAAD,eAAK,CAAC;EACJ,MAAM,EAAE,IAAI;CACb;;AACA,AAAD,gBAAM,CAAC;EACL,UAAU,EAAE,MAAM;CACnB;;AACA,AAAD,gBAAM,CAAC;EACL,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "specialist.scss"
+    ],
+    "names": [],
+    "file": "specialist.css"
+}

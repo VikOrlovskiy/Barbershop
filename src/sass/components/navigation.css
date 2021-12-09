@@ -1,0 +1,24 @@
+.navigation_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation_item {
+  display: block;
+  margin-right: 40px;
+  color: white;
+}
+
+.navigation_item:last-child {
+  margin-right: 0;
+}
+
+.navigation_item:hover, .navigation_item:focus {
+  color: red;
+}
+
+.navigation_link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=navigation.css.map */

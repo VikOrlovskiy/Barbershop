@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAkB/B;;AAjBE,AAAD,WAAM,CAAC;EACL,OAAO,EAAE,SAAS;CACnB;;AACA,AAAD,WAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,IAAI;CAClB;;AACA,AAAD,WAAM,AAAA,YAAY,CAAC;EACjB,WAAW,EAAE,CAAC;CACf;;AACA,AAAD,WAAM,CAAC;EACL,OAAO,EAAE,KAAK;EACd,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "section-prise.scss"
+    ],
+    "names": [],
+    "file": "section-prise.css"
+}

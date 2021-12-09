@@ -1,0 +1,28 @@
+.footer-bar {
+  &_link {
+    color: $secondary-text-color;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+  &_link:last-child {
+    margin-right: 0;
+  }
+  &_link:hover,
+  &_link:focus {
+    color: $acent-text-color;
+    transition: color 250ms $primary-animation;
+  }
+}
+.footer-copi {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  color: $darkest-text-color;
+}
+.footer-bar_link:first-child::before {
+  content: '';
+  height: 100%;
+  margin-right: 40px;
+  width: 60px;
+  border-bottom: solid 1px $secondary-text-color;
+}

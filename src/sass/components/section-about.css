@@ -1,0 +1,21 @@
+.about_pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc((100%-30px) / 2);
+}
+
+.about_images {
+  margin-right: 30px;
+  width: calc((100% - 30px) / 2);
+}
+
+.about_images:last-child {
+  margin-right: 0;
+}
+
+.about_content {
+  margin-left: 64px;
+  width: calc(100% / 2);
+}
+/*# sourceMappingURL=section-about.css.map */
