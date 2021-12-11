@@ -10,6 +10,8 @@
   background-size: cover;
   background-position: center;
   &_text {
+    display: flex;
+    align-items: center;
     font-size: 18px;
     line-height: 1.7;
     color: $darkest-text-color;
@@ -29,5 +31,9 @@
   &_text:focus {
     color: $acent-text-color;
     transition: color 250ms $primary-animation;
+  }
+  &_icon {
+    fill: $darkest-text-color;
+    margin-right: 16px;
   }
 }
