@@ -1,10 +1,86 @@
-.slider {
-  padding: 40vh 0 0 5vw;
-  background-color: $slider-before-color;
-  height: 100vh;
-  flex-grow: 1;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/header/slider-1-min.jpg);
-  background-size: cover;
-  background-position: center;
+// .slider {
+//   padding: 40vh 0 0 5vw;
+//   background-color: $slider-before-color;
+//   height: 100vh;
+//   flex-grow: 1;
+//   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(../images/header/slider-1-min.jpg);
+//   background-size: cover;
+//   background-position: center;
+// }
+.swiper {
+  width: calc(100% - 155px);
+  &-wrapper {
+    height: 100vh;
+    max-height: 680px;
+  }
+  &-slide {
+    position: relative;
+    height: 100%;
+    background-color: $slider-before-color;
+    background-size: cover;
+    background-position: center;
+  }
+  &-slide-img {
+    height: 100%;
+  }
+  &-button-prev {
+    color: $lite-text-color;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    top: 90%;
+    left: 85%;
+  }
+  &-button-prev::after {
+    content: '';
+    margin-top: 8px;
+    border: 1px solid $lite-text-color;
+    width: 60px;
+  }
+  &-button-next::after {
+    content: '';
+    margin-top: 8px;
+    border: 1px solid $slider-before-color;
+    width: 60px;
+  }
+  &-button-next {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    color: $slider-before-color;
+    display: flex;
+    flex-direction: column;
+    top: 90%;
+    left: 70%;
+  }
+}
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 55px;
+}
+.swiper-pagination-bullet {
+  margin-bottom: 12px;
+  width: 30px;
+  height: 2px;
+  border-radius: 0;
+  background-color: $lite-text-color;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 40px;
+  height: 2px;
+  border-radius: 0;
+  background-color: $lite-text-color;
+}
+.swiper-slide-text-box {
+  position: absolute;
+  top: 45%;
+  left: 10%;
 }
