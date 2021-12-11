@@ -1,9 +1,28 @@
 .contacts {
   margin-left: auto;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 40px;
+    display: block;
+  }
   &_phone {
     text-decoration: none;
     color: $lite-text-color;
-    margin-right: 40px;
+    @media (min-width: 480px) {
+    }
+
+    @media (min-width: 768px) {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    @media (min-width: 1200px) {
+      margin-right: 40px;
+    }
   }
   &_phone:hover,
   &_phone:focus {

@@ -4,7 +4,16 @@
   }
   &_item {
     display: block;
-    margin-right: 40px;
+    @media (min-width: 480px) {
+    }
+
+    @media (min-width: 768px) {
+      margin-right: 24px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-right: 40px;
+    }
   }
   &_item:last-child {
     margin-right: 0;
