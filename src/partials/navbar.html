@@ -1,17 +1,40 @@
 <div class="nav-bar container">
-  <svg class="nav-bar_svg">
+  <svg class="nav-bar_svg" width="68px" height="55px">
     <use xlink:href="./images/svg/svg-sprite.svg#icon-logo"></use>
   </svg>
-  <nav class="navigation">
-    <ul class="navigation_list">
-      <li class="navigation_item"><a class="navigation_link" href="#"> О нас</a></li>
-      <li class="navigation_item"><a class="navigation_link" href="#">Услуги и цены</a></li>
-      <li class="navigation_item"><a class="navigation_link" href="#">Мастера</a></li>
-      <li class="navigation_item"><a class="navigation_link" href="#">Контакты</a></li>
+  <div class="mob-menu" data-menu>
+    <button
+      type="button"
+      class="button_mobile button_mobile-close"
+      aria-expanded="false"
+      aria-control="mob-menu"
+      data-menu-close
+    >
+      <svg width="24px" height="16px" aria-label="переключательмобильного меню">
+        <use class="button_mobile-cross" xlink:href="./images/svg/svg-sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="navigation">
+      <li class="navigation_item"><a class="navigation_link" href="#about"> О нас</a></li>
+      <li class="navigation_item"><a class="navigation_link" href="#price">Услуги и цены</a></li>
+      <li class="navigation_item"><a class="navigation_link" href="#team">Мастера</a></li>
+      <li class="navigation_item"><a class="navigation_link" href="#contact">Контакты</a></li>
     </ul>
-  </nav>
-  <div class="contacts">
-    <a class="contacts_phone" href="#">+38 044 111 11 11</a>
-    <a class="link" href="#">онлайн-запись</a>
+    <div class="contacts">
+      <a class="contacts_phone" href="#">+38 044 111 11 11</a>
+      <a class="link" href="#form">онлайн-запись</a>
+    </div>
+    <div class="mobile-bar">
+      <a class="mobile-bar_link" href="#">Instagram</a>
+      <a class="mobile-bar_link" href="#">Youtube</a>
+    </div>
   </div>
+  <button type="button" class="button_mobile" data-menu-open aria-control="page-header__menu">
+    <svg width="24px" height="16px" aria-label="переключательмобильного меню">
+      <use
+        class="button_mobile-menu"
+        xlink:href="./images/svg/svg-sprite.svg#icon-mobile-menu"
+      ></use>
+    </svg>
+  </button>
 </div>

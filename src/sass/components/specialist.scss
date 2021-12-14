@@ -1,6 +1,8 @@
 .specialist {
-  &_thumb {
-    height: 370px;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   &_img {
     height: 100%;

@@ -1,6 +1,8 @@
 .about {
   &_pictures {
+    display: none;
     @media (min-width: 768px) {
+      display: block;
       width: calc(100% / 2);
     }
 

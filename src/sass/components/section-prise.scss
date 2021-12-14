@@ -1,15 +1,14 @@
 .price {
-  @media (min-width: 768px) {
-    display: block;
-    margin: 40px 0 50px 0;
-  }
+  display: block;
+  margin: 44px 0 50px 0;
+
   @media (min-width: 1200px) {
     display: flex;
     justify-content: space-between;
   }
   &_list {
     flex-grow: 1;
-    padding: 30px 40px;
+    padding: 30px;
     background: linear-gradient(180deg, #171a24 0%, #171a24 100%);
     @media (min-width: 1200px) {
       background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
@@ -18,6 +17,7 @@
   }
 
   &_list.list-right {
+    padding: 0 30px 30px 30px;
     background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
     @media (min-width: 768px) {
       padding: 0 40px 30px 40px;
@@ -38,16 +38,21 @@
   }
   &_name {
     display: block;
-    margin-right: 50px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: $darkest-text-color;
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
   }
   &_cost {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: $darkest-text-color;
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 }

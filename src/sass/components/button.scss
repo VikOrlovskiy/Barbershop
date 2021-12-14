@@ -13,8 +13,8 @@
 
   border-radius: 25px;
   padding: 12px 20px;
-  min-width: 160px;
-  max-width: 190px;
+  min-width: 165px;
+  max-width: 165px;
   border: 2px solid $acent-text-color;
 
   transition: color 250ms $primary-animation, border-color 250ms $primary-animation,
@@ -40,28 +40,31 @@
 }
 // ==================================================================
 // mobile Btn
-.button__mobile {
+.button_mobile {
+  background-color: transparent;
+  border: none;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.button_mobile-close {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  align-self: flex-end;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.button_mobile-menu {
+  fill: white;
+}
+.button_mobile-cross {
   display: none;
-  @media (max-width: 767px) {
-    display: inline-flex;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    z-index: 10;
-  }
+}
+.mob-menu.is-open .button_mobile-cross {
+  display: block;
 
-  & .button__mobile-menu {
-    fill: $lite-text-color;
-    display: block;
-  }
-  &.is-open .button__mobile-menu {
-    display: none;
-  }
-  & .button__mobile-cross {
-    display: none;
-  }
-  &.is-open .button__mobile-cross {
-    fill: $secondary-text-color;
-    display: block;
-  }
+  fill: $secondary-text-color;
 }

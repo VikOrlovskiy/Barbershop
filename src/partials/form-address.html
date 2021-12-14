@@ -1,34 +1,39 @@
 <div class="container container-form">
-  <form class="form" action="#">
+  <form class="form" action="#" id="form">
     <h2 class="section_title lite">Онлайн-запись</h2>
     <input class="form_name" type="text" placeholder="Имя*" />
     <input class="form_phone" type="phone" placeholder="Телефон" />
     <input class="form_massage" type="text" placeholder="сообщение" />
     <button class="link" type="submit">отправить</button>
   </form>
-  <div class="address">
+  <div class="address" id="contact">
     <h2 class="section_title lite">Контакты</h2>
-    <address class="address_text address_map">
-      <svg class="address_icon" width="24px" height="24px">
-        <use href="./images/svg/svg-sprite.svg#icon-map-pin"></use>
-      </svg>
-      ул. Васильковая, 7А Киев, 08132
-    </address>
-    <a class="address_text address_phone" href="#">
-      <svg class="address_icon" width="24px" height="24px">
-        <use href="./images/svg/svg-sprite.svg#icon-phone"></use>
-      </svg>
-      +38 044 111 11 11</a
-    >
-    <a class="address_text address_mail" href="#">
-      <svg class="address_icon" width="24px" height="24px">
-        <use href="./images/svg/svg-sprite.svg#icon-mail"></use>
-      </svg>
-      barbershop@email.com</a
-    >
-    <div>
-      <span class="section_before_title white-text">время работы</span>
-      <p class="address_text">Ежедневно с 9:00 до 22:00</p>
+    <div class="address_box">
+      <div class="address_content-box">
+        <address class="address_text address_map">
+          <svg class="address_icon" width="24px" height="24px">
+            <use href="./images/svg/svg-sprite.svg#icon-map-pin"></use>
+          </svg>
+          ул. Васильковая <br />
+          7А Киев, 08132
+        </address>
+        <a class="address_text address_phone" href="#">
+          <svg class="address_icon" width="24px" height="24px">
+            <use href="./images/svg/svg-sprite.svg#icon-phone"></use>
+          </svg>
+          +38 044 111 11 11</a
+        >
+        <a class="address_text address_mail" href="#">
+          <svg class="address_icon" width="24px" height="24px">
+            <use href="./images/svg/svg-sprite.svg#icon-mail"></use>
+          </svg>
+          barbershop@email.com</a
+        >
+      </div>
+      <div class="address_time-box">
+        <span class="section_before_title white-text">время работы</span>
+        <p class="address_text">Ежедневно с 9:00 до 22:00</p>
+      </div>
     </div>
   </div>
 </div>

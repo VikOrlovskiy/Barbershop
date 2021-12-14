@@ -1,4 +1,7 @@
 .side-bar {
+  @media (max-width: 768px) {
+    display: none;
+  }
   position: relative;
   width: 155px;
   height: 100vh;

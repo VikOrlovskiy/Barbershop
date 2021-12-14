@@ -45,9 +45,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.05em;
     color: $lite-text-color;
-    @media (min-width: 768px) {
-      font-size: 48px;
-    }
+    font-size: 48px;
 
     @media (min-width: 1200px) {
       font-size: 72px;
@@ -90,9 +88,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.05em;
     color: $secondary-text-color;
-    @media (min-width: 768px) {
-      font-size: 28px;
-    }
+    font-size: 28px;
 
     @media (min-width: 1200px) {
       font-size: 42px;
@@ -106,13 +102,10 @@ body {
   }
   &_subtitle {
     font-weight: normal;
-    line-height: 1.6;
     letter-spacing: 0.02em;
     margin-top: 20px;
-    @media (min-width: 768px) {
-      font-size: 16px;
-      line-height: 1.2;
-    }
+    font-size: 16px;
+    line-height: 1.2;
 
     @media (min-width: 1200px) {
       font-size: 18px;
@@ -141,6 +134,7 @@ body {
 // main container stiles
 .container {
   margin: 0 auto;
+  padding: 0 31px;
 
   @media (min-width: 480px) {
     width: 480px;
@@ -165,6 +159,14 @@ body {
       display: flex;
     }
   }
+  &_row-why {
+    @media (min-width: 768px) {
+    }
+    @media (min-width: 1200px) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
 }
 .container_hero {
   position: relative;
@@ -185,24 +187,26 @@ body {
   }
 }
 .container-footer {
-  @media (max-width: 767px) {
-    padding: 44px 31px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  @media (min-width: 768px) {
-    padding: 39px 56px;
-    display: flex;
+  padding: 44px 39px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 1200px) {
+    padding: 56px 55px;
     flex-direction: row;
     justify-content: space-between;
   }
 }
 .container-form {
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  background-color: #191c26;
+  @media (max-width: 767px) {
+  }
+  @media (min-width: 1200px) {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 }
 // ==================================================================
 //class visible hidden

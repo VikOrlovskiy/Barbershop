@@ -1,18 +1,28 @@
 .why {
+  display: flex;
+  flex-wrap: wrap;
   @media (min-width: 768px) {
-  }
-  @media (min-width: 1200px) {
-    width: calc(100% / 2);
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: -30px 0 0 0;
   }
 
   &_box {
     padding: 20px 20px;
     margin: 30px 0 0 30px;
     background-color: $lite-bg-color;
-    width: 170px;
+    width: calc((100% - (30px * 2)) / 2);
+    min-width: 150px;
     height: 133px;
+
+    @media (min-width: 768px) {
+      width: 210px;
+    }
+    @media (min-width: 1200px) {
+      width: 170px;
+    }
+  }
+  &_box:nth-child(3) {
+    margin: 0 0 0 30px;
   }
   &_box:nth-child(2) {
     margin: 60px 0 0 30px;
@@ -47,7 +57,15 @@
     color: $secondary-text-color;
   }
   &_content {
-    margin-left: 130px;
-    flex-grow: 1;
+    @media (min-width: 768px) {
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 44px;
+    }
+    @media (min-width: 1200px) {
+      margin-left: 130px;
+      flex-grow: 1;
+      margin-bottom: 0;
+    }
   }
 }

@@ -1,11 +1,19 @@
 .team {
   margin-top: 44px;
-  display: flex;
-  &_item {
-    margin-right: 30px;
-    width: calc((100% - (30px * 2)) / 3);
+  @media (min-width: 1200px) {
+    display: flex;
   }
-  &_item:last-child {
-    margin-right: 0;
+  &_item {
+    margin-bottom: 64px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media (min-width: 1200px) {
+      margin-right: 30px;
+      width: calc((100% - (30px * 2)) / 3);
+      &_item:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
