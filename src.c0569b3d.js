@@ -13,4 +13,4 @@ var t=arguments[3],n="Expected a function",e=NaN,i="[object Symbol]",r=/^\s+|\s+
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=require("./Refs.js"),i=require("./mobile-menu.js"),n=require("lodash.debounce"),s=require("lodash.throttle");const t=document.documentElement.clientWidth;function o(i){e.Refs.header.classList.contains("active")||e.Refs.header.classList.toggle("active")}e.Refs.openMobileMenuRef.addEventListener("click",i.onHadleClickMenu),e.Refs.closenMobileMenuRef.addEventListener("click",i.onHadleClickMenu),t>=768&&e.Refs.mobileMenuRef.classList.remove("is-open"),new Swiper(".swiper",{direction:"horizontal",loop:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}}),window.addEventListener("scroll",s(o,5e3));
 },{"./sass/main.scss":"clu1","./Refs.js":"P17A","./mobile-menu.js":"Cz5k","lodash.debounce":"PZFh","lodash.throttle":"FNyO"}]},{},["Focm"], null)
-//# sourceMappingURL=/Barbershop/src.1feaa950.js.map
+//# sourceMappingURL=/Barbershop/src.c0569b3d.js.map
