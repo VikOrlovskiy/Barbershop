@@ -1,20 +1,33 @@
 <section class="section" id="about">
   <div class="container container_row">
     <div class="about_pictures">
-        <img 
-                class="about_images"
-                srcset="./images/best/img1-min.jpg "
-                src="./images/best/img1-min.jpg" 
-                alt="card-2"
- >
-              <img 
-                class="about_images"
-                srcset="./images/best/img2-min.jpg "
-                src="./images/best/img2-min.jpg"  
-                alt="card-2"
- >
+ <picture class="about_pictures-thumb">
+        <source
+          srcset="./images/why/720px/img1@1x.jpg 340w, ./images/why/720px/img1@2x.jpg 780w"
+          media="(min-width:768px) and (max-width:1200px)"
+          sizes="(min-width:768px) and (max-width:1200px) 340px, 100vw"
+        />
+        <source
+          srcset="./images/why/1200px/img1@1x.jpg 516w, ./images/why/1200px/img1@2x.jpg 1032w"
+          media="(min-width:1200px)"
+          sizes="(min-width:1200px) 516px, 100vw"
+        />
+        <img class="about_images" src="./images/why/720px/img1@1x.jpg" alt="111" />
+      </picture>
+<picture  class="about_pictures-thumb">
+        <source
+          srcset="./images/why/720px/img2@1x.jpg 340w, ./images/why/720px/img2@2x.jpg 780w"
+          media="(min-width:768px) and (max-width:1200px)"
+          sizes="(min-width:768px) and (max-width:1200px) 340px, 100vw"
+        />
+        <source
+          srcset="./images/why/1200px/img2@1x.jpg 516w, ./images/why/1200px/img2@2x.jpg 1032w"
+          media="(min-width:1200px)"
+          sizes="(min-width:1200px) 516px, 100vw"
+        />
+        <img class="about_images" src="./images/why/720px/img2@1x.jpg" alt="111" />
+      </picture>
             </div>
-
     <div class="about_content">
       <span class="section_before_title dark-text">О НАС</span>
       <h2 class="section_title">Лучший Барбершоп твоего города</h2>
