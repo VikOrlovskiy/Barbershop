@@ -11,24 +11,22 @@ if (windowInnerWidth >= 768) {
   Refs.mobileMenuRef.classList.remove('is-open');
 }
 // ===============================================
-if (windowInnerWidth >= 768) {
-  new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
+new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
 
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-}
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
 window.addEventListener('scroll', throttle(onScrollHeaderMove, 5000));
 
